@@ -1,0 +1,70 @@
+<body>
+<div class="page-width">
+  <div class="leftArea floatLeft">
+  [signin start]
+<div class="mp-container">
+  <div data-zs-container="signingreatings"> 
+    <div class="member-signin">${signin}</div>
+  </div>
+</div>
+[signin end]
+  <div class="leftAreaInner">
+   [search start]
+    <div> [searchform start]
+      <div class="searchbox"> ${searchinput}          
+        ${searchbutton} </div>
+      [searchform end] </div>
+    [search end]
+    [socialicon start]
+    <div class="socialiconContainer"> ${socialicon} </div>
+    [socialicon end]
+    <div class="themeBrandingArea">
+      <div class="themeBrandingContainer">
+        <div class="tableRow"> [logo start]
+          <div class="tableCell themeLogoOuterContainer">
+            <div class="themeLogoArea">${logo 90x90 resizable}</div>
+          </div>
+          [logo end]
+          <div class="tableCell themeSitenameCaptionOuterContainer">
+            <div class="themeBrandingContainer themeSitenameCaptionInnerContainer">
+              <div class="tableRow themeSitenameCaptionContainer">
+                <div class="tableCell themeSitenameCaptionContainer"> [sitename start]
+                  <div class="themeSitename" data-zs-container="sitename">${sitename}</div>
+                  [sitename end]
+                  [caption start]
+                  <div class="themeCaption" data-zs-container="caption">${caption}</div>
+                  [caption end] </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    [banner start]
+    <div class="banner">${banner 614x250}</div>
+    [banner end]
+    [content start]
+    <div class="contentArea" data-zs-container="content">[breadcrumb start]
+      <div class="breadcrumb">${breadcrumb &#43;}</div>
+      [breadcrumb end]
+      ${content} </div>
+    [content end]
+    [footer start]
+    <div class="footer">${footer}</div> 
+    [footer end] </div> 
+    </div>
+  <div class="rightArea floatLeft"> [navigation start]
+    <div class="menuContainer">
+      <div id="navigation">${navigation vertical}</div>
+    </div>
+    [navigation end]
+    [sidebar start]
+    <div class="sidebarArea" data-zs-container="sidebar">${sidebar}</div>
+    [sidebar end] </div>
+</div>
+[slideshow start]
+<div class="zs-slideshow-right-arrow"></div>
+<div class="zs-slideshow-left-arrow"></div>
+<div class="themeSlideshowOuterContainer"> <span class="themeSlideshowInnerContainer"> <span class="zs-slideshow-control"></span> </span> </div>
+[slideshow end]
+</body>
