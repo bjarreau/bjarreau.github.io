@@ -8,5 +8,5 @@
 	}
 	
 	function Home() {
-		 location.href='home.html'; 
+		 location.href='index.html'; 
 	}
