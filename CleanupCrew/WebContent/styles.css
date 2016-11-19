@@ -22,7 +22,6 @@ body {
 	margin-top: 30px;
 	margin-left: 40px;
 	margin-right: 20px;
-/* 	margin-right: 300px; */
 }
 
 .downloadImg {
@@ -37,6 +36,7 @@ body {
 	text-align: center;
 	background: #00ff00;
 	border: none;
+	cursor: pointer;
 }
 
 .menubar{
