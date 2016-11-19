@@ -18,10 +18,14 @@ body {
 
 .info {
 	float: left;
+	margin-top: 30px;
+	margin-left: 90px;
 	margin-right: 270px;
+	width: 75%;
 }
 
 .downloadImg {
+	margin-top: 30px;
 	float: right;
 	width: 260px;
 }
@@ -57,7 +61,6 @@ body {
 	height:60px;
 	margin: auto;
 }
-
 
 .content {
 	margin-top: 30px;
