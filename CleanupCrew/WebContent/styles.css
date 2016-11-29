@@ -51,11 +51,16 @@ body {
 	position: fixed;
 	overflow-y: auto;
 	top: 130px;
-	height:200px;
 	width: 100%;
+	bottom: 0px;
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
+}
+
+.banner {
+	height:200px;
+	width: 100%;
 	background-image: url('images/zombies.jpg');
 }
 
