@@ -125,6 +125,7 @@ body {
 
 .memberName {
 	margin-bottom: 10px;
+	color: #00ff00;
 }
 
 .member {
@@ -135,6 +136,26 @@ body {
 	padding: 1em;
 	font-size: 24px;
 	text-align: center;
+}
+
+.memberWide {
+	float: left;
+	max-width: 300px;
+	margin: 0;
+/* 	height: 200px; */
+	padding: 1em;
+	font-size: 24px;
+	text-align: center;
+}
+
+.bioThin {
+	margin-left: 300px;
+	border-left: 1px solid #00ff00;
+	font-size: 20px;
+	height: 200px;
+	padding: 1em;
+	padding-top: 60px; 
+	overflow: hidden;
 }
 
 .bio {
